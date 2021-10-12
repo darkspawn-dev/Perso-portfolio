@@ -178,3 +178,35 @@ body {
     margin: 20px auto;
     position: relative;
 }
+
+.about-me-container {
+    margin: 150px 0 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 50px;
+}
+
+.left-col, .right-col {
+    position: relative;
+}
+
+.left-col::before{
+    content: 'yes, its me';
+    text-transform: capitalize;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+
+.left-col::after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 80px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    transform-origin: right;
+    transform:rotate(-30deg);
+}
