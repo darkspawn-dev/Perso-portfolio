@@ -15,7 +15,7 @@
       <h1 class="brand">Logo</h1>
       <ul class="links-container">
         <li class="links-item"><a href="#" class="link active">home</a></li>
-        <li class="links-item"><a href="#" class="link">project</a></li>
+        <li class="links-item"><a href="#" class="#project-section">project</a></li>
         <li class="links-item"><a href="#" class="link">about</a></li>
         <li class="links-item"><a href="#" class="link">contact</a></li>
       </ul>
@@ -37,21 +37,75 @@
       <img src="img/img1.jpg" class="image" alt="" />
     </section>
 
-
     <!-- about section-->
     <section class="about" id="about-section">
       <h2 class="heading">about<span class="highlight">me</span></h2>
-      <p class="sub-heading"> Lorem ipsum dolor sit amet.</p>
+      <p class="sub-heading">Lorem ipsum dolor sit amet.</p>
       <div class="seperator"></div>
 
       <div class="about-me-container">
-      <div class="left-col">
-        <img src="img/img2.jpg" class="about-image" alt="">
+        <div class="left-col">
+          <img src="img/img2.jpg" class="about-image" alt="" />
+        </div>
+        <div class="right-col">
+          <p class="about-para">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
+            excepturi similique minus vel dolorum deleniti voluptatibus illo
+            officia provident eos pariatur ducimus, eligendi sit reprehenderit
+            modi odio impedit corporis! Inventore dicta voluptatibus,
+            laudantium, possimus aspernatur, unde ad veniam consequatur quia
+            cumque doloribus cum. Repudiandae cum obcaecati rem quisquam labore
+            eius.
+          </p>
+          <a href="#" class="btn">download cv</a>
+        </div>
       </div>
-      <div class="right-col">
-        <p class="about-para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias excepturi similique minus vel dolorum deleniti voluptatibus illo officia provident eos pariatur ducimus, eligendi sit reprehenderit modi odio impedit corporis! Inventore dicta voluptatibus, laudantium, possimus aspernatur, unde ad veniam consequatur quia cumque doloribus cum. Repudiandae cum obcaecati rem quisquam labore eius.</p>
-        <a href="#" class="btn">download cv</a>
-      </div>
+      <h2 class="heading">languages and framework i know & Skill</h2>
+      <div class="seperator"></div>
+      <div class="skill-container">
+        <div class="skill-card" style="--bg: #f06529">
+          <p class="skill">HTML</p>
+        </div>
+        <div class="skill-card" style="--bg: #379ad6">
+          <p class="skill">CSS</p>
+        </div>
+        <div class="skill-card" style="--bg: #cc6699">
+          <p class="skill">SCSS</p>
+        </div>
+        <div class="skill-card" style="--bg: #f71f1e">
+          <p class="skill">JavaScript</p>
+        </div>
+        <div class="skill-card large" style="--bg: #5ed9fb">
+          <p class="skill">ReactJS</p>
+        </div>
+        <div class="skill-card large" style="--bg: #83cd29">
+          <p class="skill">NodeJS</p>
+        </div>
+        <div class="skill-card" style="--bg: #326690">
+          <p class="skill">Postgres</p>
+        </div>
+        <div class="skill-card" style="--bg: #ffa000">
+          <p class="skill">Firebase</p>
+        </div>
+          <div class="skill-card large" style="--bg: #ffa000">
+            <p class="skill">NodeJS</p>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- Project section-->
+    <section class="project" id="project-section">
+      <h2 class="heading">Project<span class="highlight">s</span></h2>
+      <p class="sub-heading">Lorem ipsum dolor sit amet.</p>
+      <div class="seperator"></div>
+
+      <div class="filters">
+        <button class="filter-btn active" id="all">all</button>
+        <button class="filter-btn" id="JavaScript">JavaScript</button>
+        <button class="filter-btn" id="all">ui</button>
+        <button class="filter-btne" id="all">frontend</button>
+        <button class="filter-btn" id="all">fullstack</button>
       </div>
     </section>
     <script src="app.js"></script>
